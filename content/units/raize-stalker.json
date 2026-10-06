@@ -1,0 +1,48 @@
+{
+  "type": "mech",
+  "name": "Raize Stalker",
+  "description": "Medium biotech mech that fires hardened nanite darts.",
+  "health": 1150,
+  "speed": 0.78,
+  "hitSize": 14,
+  "rotateSpeed": 3,
+  "accel": 0.08,
+  "drag": 0.1,
+  "armor": 5,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "nanite-constructor",
+  "weapons": [
+    {
+      "name": "raize-stalker-weapon",
+      "x": 5,
+      "y": 1,
+      "reload": 48,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 6,
+      "shootCone": 20,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 42,
+        "speed": 6.2,
+        "lifetime": 35,
+        "width": 7,
+        "height": 10,
+        "knockback": 0.6,
+        "frontColor": "8fd4a8",
+        "backColor": "3d8a6a",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitBulletSmall",
+        "status": "nanite-infection",
+        "statusDuration": 90
+      }
+    }
+  ]
+}

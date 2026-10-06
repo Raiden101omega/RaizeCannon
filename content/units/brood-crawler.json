@@ -1,0 +1,47 @@
+{
+  "type": "crawl",
+  "name": "Brood Crawler",
+  "description": "A reinforced larva with a stronger bite and a thick organic shell.",
+  "health": 850,
+  "speed": 1.25,
+  "hitSize": 11,
+  "rotateSpeed": 5,
+  "accel": 0.08,
+  "drag": 0.08,
+  "armor": 5,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "raize-larva",
+  "weapons": [
+    {
+      "name": "brood-crawler-weapon",
+      "x": 4,
+      "y": 0,
+      "reload": 24,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 40,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 34,
+        "speed": 4.1,
+        "lifetime": 16,
+        "width": 8,
+        "height": 10,
+        "knockback": 0.6,
+        "frontColor": "9cd67b",
+        "backColor": "4e8a4a",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitBulletSmall",
+        "status": "nanite-infection",
+        "statusDuration": 75
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "Reconstructor",
+  "name": "Nanite Recombinator",
+  "description": "Recombines first-generation organisms into specialized second-generation forms.",
+  "size": 3,
+  "health": 1100,
+  "armor": 4,
+  "constructTime": 600,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 80,
+  "liquidCapacity": 40,
+  "requirements": [
+    "titanium/220",
+    "silicon/180",
+    "plastanium/80",
+    "spore-pod/20"
+  ],
+  "category": "units",
+  "consumes": {
+    "power": 4.5,
+    "liquid": "parasitic-nanites/0.18",
+    "items": [
+      "silicon/40",
+      "titanium/30",
+      "spore-pod/12"
+    ]
+  },
+  "upgrades": [
+    ["raize-larva", "brood-crawler"],
+    ["raize-stalker", "spine-hunter"],
+    ["raize-wasp", "miasma-wasp"]
+  ],
+  "research": {
+    "parent": "nanite-constructor",
+    "requirements": [
+      "titanium/100",
+      "silicon/80"
+    ]
+  }
+}

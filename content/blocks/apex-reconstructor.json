@@ -1,0 +1,44 @@
+{
+  "type": "Reconstructor",
+  "name": "Apex Reconstructor",
+  "description": "Performs the final nanite-intensive mutation into apex organisms.",
+  "size": 3,
+  "health": 1800,
+  "armor": 8,
+  "constructTime": 1500,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 160,
+  "liquidCapacity": 60,
+  "requirements": [
+    "thorium/420",
+    "silicon/300",
+    "plastanium/180",
+    "surge-alloy/40",
+    "phase-fabric/50",
+    "spore-pod/45"
+  ],
+  "category": "units",
+  "consumes": {
+    "power": 10.0,
+    "liquid": "parasitic-nanites/0.4",
+    "items": [
+      "silicon/150",
+      "plastanium/80",
+      "surge-alloy/20",
+      "spore-pod/28"
+    ]
+  },
+  "upgrades": [
+    ["carapace-beast", "colossus-worm"],
+    ["plague-stalker", "necrotic-warden"],
+    ["venom-wing", "hive-mother"]
+  ],
+  "research": {
+    "parent": "mutagenic-reconstructor",
+    "requirements": [
+      "thorium/160",
+      "surge-alloy/20"
+    ]
+  }
+}

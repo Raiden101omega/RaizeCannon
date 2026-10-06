@@ -1,0 +1,53 @@
+{
+  "type": "flying",
+  "name": "Hive Mother",
+  "description": "Huge flying brood organism that rains infectious projectiles over enemy lines.",
+  "health": 4200,
+  "speed": 2.1,
+  "hitSize": 22,
+  "rotateSpeed": 4,
+  "accel": 0.06,
+  "drag": 0.04,
+  "armor": 12,
+  "itemCapacity": 0,
+  "flying": true,
+  "lowAltitude": true,
+  "engineOffset": 10,
+  "engineSize": 4.5,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "venom-wing",
+  "weapons": [
+    {
+      "name": "hive-mother-weapon",
+      "x": 8,
+      "y": 2,
+      "reload": 34,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 25,
+      "shootSound": "shootBig",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 110,
+        "speed": 8.0,
+        "lifetime": 38,
+        "width": 10,
+        "height": 14,
+        "knockback": 0.8,
+        "splashDamage": 22,
+        "splashDamageRadius": 20,
+        "frontColor": "b6e07a",
+        "backColor": "3d6b4a",
+        "shootEffect": "shootBig",
+        "hitEffect": "flakExplosion",
+        "status": "nanite-infection",
+        "statusDuration": 120
+      }
+    }
+  ]
+}

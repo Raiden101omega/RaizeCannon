@@ -1,0 +1,61 @@
+{
+  "type": "UnitFactory",
+  "name": "Nanite Constructor",
+  "description": "Grows the first generation of Raize organisms. Requires Parasitic Nanites for every growth cycle.",
+  "size": 3,
+  "health": 900,
+  "armor": 3,
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "itemCapacity": 80,
+  "requirements": [
+    "copper/240",
+    "lead/180",
+    "silicon/120",
+    "titanium/80",
+    "plastanium/70"
+  ],
+  "category": "units",
+  "consumes": {
+    "power": 3.5,
+    "liquid": "parasitic-nanites/0.12"
+  },
+  "plans": [
+    {
+      "unit": "raize-larva",
+      "time": 900,
+      "requirements": [
+        "copper/45",
+        "silicon/20",
+        "spore-pod/12"
+      ]
+    },
+    {
+      "unit": "raize-stalker",
+      "time": 1200,
+      "requirements": [
+        "titanium/55",
+        "silicon/35",
+        "plastanium/20",
+        "spore-pod/8"
+      ]
+    },
+    {
+      "unit": "raize-wasp",
+      "time": 1050,
+      "requirements": [
+        "lead/45",
+        "silicon/30",
+        "plastanium/15",
+        "spore-pod/6"
+      ]
+    }
+  ],
+  "research": {
+    "parent": "nanite-culture-vat",
+    "requirements": [
+      "spore-pod/30",
+      "plastanium/20"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "crawl",
+  "name": "Raize Larva",
+  "description": "Small disposable biotech crawler that swarms defenses with infected bites.",
+  "health": 420,
+  "speed": 1.35,
+  "hitSize": 8,
+  "rotateSpeed": 6,
+  "accel": 0.08,
+  "drag": 0.08,
+  "armor": 2,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "nanite-constructor",
+  "weapons": [
+    {
+      "name": "raize-larva-weapon",
+      "x": 3,
+      "y": 0,
+      "reload": 22,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 40,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 18,
+        "speed": 3.8,
+        "lifetime": 14,
+        "width": 7,
+        "height": 9,
+        "knockback": 0.4,
+        "frontColor": "9cd67b",
+        "backColor": "6fae65",
+        "shootEffect": "shootSmall",
+        "smokeEffect": "none",
+        "hitEffect": "hitBulletSmall",
+        "despawnEffect": "none",
+        "status": "nanite-infection",
+        "statusDuration": 45
+      }
+    }
+  ]
+}

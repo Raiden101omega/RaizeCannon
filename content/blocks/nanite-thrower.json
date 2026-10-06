@@ -1,0 +1,49 @@
+{
+  "type": "LiquidTurret",
+  "name": "Nanite Thrower",
+  "description": "Biotech liquid cannon that fires only Parasitic Nanites, infecting anything it hits.",
+  "size": 2,
+  "health": 560,
+  "armor": 2,
+  "range": 170,
+  "reload": 8,
+  "shootCone": 8,
+  "inaccuracy": 2,
+  "recoil": 1,
+  "rotateSpeed": 9,
+  "shootY": 8,
+  "targetAir": true,
+  "targetGround": true,
+  "liquidCapacity": 60,
+  "shootSound": "spray",
+  "requirements": [
+    "copper/120",
+    "lead/160",
+    "titanium/60",
+    "silicon/35"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "wave",
+    "requirements": [
+      "titanium/25",
+      "spore-pod/8"
+    ]
+  },
+  "ammoTypes": {
+    "parasitic-nanites": {
+      "type": "LiquidBulletType",
+      "liquid": "parasitic-nanites",
+      "damage": 5,
+      "speed": 4.5,
+      "lifetime": 38,
+      "knockback": 0.8,
+      "drag": 0.01,
+      "status": "nanite-infection",
+      "statusDuration": 120,
+      "puddleSize": 8,
+      "orbSize": 4,
+      "ammoMultiplier": 1
+    }
+  }
+}

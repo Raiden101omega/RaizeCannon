@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Nanite Culture Vat",
+  "description": "Grows Parasitic Nanites from spore pods, plastanium, and water. Feeds constructors and reconstructors.",
+  "size": 2,
+  "health": 520,
+  "armor": 2,
+  "craftTime": 90,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 60,
+  "outputLiquid": "parasitic-nanites/0.2",
+  "requirements": [
+    "copper/160",
+    "lead/100",
+    "silicon/55",
+    "plastanium/25"
+  ],
+  "category": "crafting",
+  "consumes": {
+    "power": 2.0,
+    "items": [
+      "spore-pod/1",
+      "plastanium/1"
+    ],
+    "liquid": "water/0.15"
+  },
+  "research": {
+    "parent": "cultivator",
+    "requirements": [
+      "spore-pod/20",
+      "plastanium/10"
+    ]
+  }
+}

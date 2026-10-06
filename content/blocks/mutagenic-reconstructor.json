@@ -1,0 +1,43 @@
+{
+  "type": "Reconstructor",
+  "name": "Mutagenic Reconstructor",
+  "description": "Mutates mature organisms into heavy combat forms.",
+  "size": 3,
+  "health": 1400,
+  "armor": 6,
+  "constructTime": 900,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 120,
+  "liquidCapacity": 50,
+  "requirements": [
+    "thorium/260",
+    "silicon/220",
+    "plastanium/120",
+    "phase-fabric/30",
+    "spore-pod/30"
+  ],
+  "category": "units",
+  "consumes": {
+    "power": 7.0,
+    "liquid": "parasitic-nanites/0.28",
+    "items": [
+      "silicon/80",
+      "plastanium/40",
+      "thorium/40",
+      "spore-pod/18"
+    ]
+  },
+  "upgrades": [
+    ["brood-crawler", "carapace-beast"],
+    ["spine-hunter", "plague-stalker"],
+    ["miasma-wasp", "venom-wing"]
+  ],
+  "research": {
+    "parent": "nanite-recombinator",
+    "requirements": [
+      "thorium/100",
+      "plastanium/60"
+    ]
+  }
+}

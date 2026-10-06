@@ -1,0 +1,13 @@
+{
+  "name": "Parasitic Nanites",
+  "description": "A blue-black suspension of microscopic machines that infect living targets.",
+  "color": "182b42",
+  "barColor": "3d6fff",
+  "flammability": 0,
+  "explosiveness": 0,
+  "temperature": 0.55,
+  "heatCapacity": 0.35,
+  "viscosity": 0.65,
+  "coolant": false,
+  "effect": "nanite-infection"
+}

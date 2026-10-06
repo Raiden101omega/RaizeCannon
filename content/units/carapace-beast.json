@@ -1,0 +1,47 @@
+{
+  "type": "crawl",
+  "name": "Carapace Beast",
+  "description": "Heavy crawling organism built to absorb punishment and break defenses.",
+  "health": 2300,
+  "speed": 1.05,
+  "hitSize": 18,
+  "rotateSpeed": 4,
+  "accel": 0.07,
+  "drag": 0.08,
+  "armor": 10,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "brood-crawler",
+  "weapons": [
+    {
+      "name": "carapace-beast-weapon",
+      "x": 6,
+      "y": 1,
+      "reload": 25,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 40,
+      "shootSound": "shootSnap",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 85,
+        "speed": 4.4,
+        "lifetime": 18,
+        "width": 9,
+        "height": 11,
+        "knockback": 1.2,
+        "frontColor": "8fd4a8",
+        "backColor": "3d6b4a",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitBulletSmall",
+        "status": "nanite-infection",
+        "statusDuration": 90
+      }
+    }
+  ]
+}

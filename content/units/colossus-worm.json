@@ -1,0 +1,47 @@
+{
+  "type": "crawl",
+  "name": "Colossus Worm",
+  "description": "Massive siege crawler with crushing jaws and extreme durability.",
+  "health": 5200,
+  "speed": 0.82,
+  "hitSize": 22,
+  "rotateSpeed": 3,
+  "accel": 0.06,
+  "drag": 0.08,
+  "armor": 18,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "carapace-beast",
+  "weapons": [
+    {
+      "name": "colossus-worm-weapon",
+      "x": 8,
+      "y": 2,
+      "reload": 30,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 40,
+      "shootSound": "shootBig",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 190,
+        "speed": 4.8,
+        "lifetime": 20,
+        "width": 12,
+        "height": 14,
+        "knockback": 2.0,
+        "frontColor": "8fd4a8",
+        "backColor": "2f4a38",
+        "shootEffect": "shootBig",
+        "hitEffect": "hitBulletBig",
+        "status": "nanite-infection",
+        "statusDuration": 105
+      }
+    }
+  ]
+}

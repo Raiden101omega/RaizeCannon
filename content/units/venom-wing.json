@@ -1,0 +1,53 @@
+{
+  "type": "flying",
+  "name": "Venom Wing",
+  "description": "Swift airborne predator whose shots spread a concentrated nanite toxin.",
+  "health": 1850,
+  "speed": 2.75,
+  "hitSize": 15,
+  "rotateSpeed": 6,
+  "accel": 0.08,
+  "drag": 0.04,
+  "armor": 6,
+  "itemCapacity": 0,
+  "flying": true,
+  "lowAltitude": true,
+  "engineOffset": 7,
+  "engineSize": 3.2,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "miasma-wasp",
+  "weapons": [
+    {
+      "name": "venom-wing-weapon",
+      "x": 5,
+      "y": 1,
+      "reload": 28,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 25,
+      "shootSound": "shootSnap",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 58,
+        "speed": 9.0,
+        "lifetime": 32,
+        "width": 8,
+        "height": 11,
+        "knockback": 0.4,
+        "splashDamage": 12,
+        "splashDamageRadius": 16,
+        "frontColor": "b6e07a",
+        "backColor": "4e8a4a",
+        "shootEffect": "shootSmall",
+        "hitEffect": "flakExplosion",
+        "status": "nanite-infection",
+        "statusDuration": 120
+      }
+    }
+  ]
+}

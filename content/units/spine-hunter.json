@@ -1,0 +1,50 @@
+{
+  "type": "mech",
+  "name": "Spine Hunter",
+  "description": "Upgraded stalker carrying a pair of corrosive spine launchers.",
+  "health": 1850,
+  "speed": 0.92,
+  "hitSize": 16,
+  "rotateSpeed": 3,
+  "accel": 0.08,
+  "drag": 0.1,
+  "armor": 8,
+  "itemCapacity": 0,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "raize-stalker",
+  "weapons": [
+    {
+      "name": "spine-hunter-weapon",
+      "x": 6,
+      "y": 1,
+      "reload": 42,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 5,
+      "shootCone": 18,
+      "shootSound": "shootSnap",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 68,
+        "speed": 7.0,
+        "lifetime": 40,
+        "width": 8,
+        "height": 12,
+        "knockback": 0.8,
+        "pierce": true,
+        "pierceCap": 2,
+        "frontColor": "8fd4a8",
+        "backColor": "2f6b55",
+        "shootEffect": "shootSmall",
+        "hitEffect": "hitBulletSmall",
+        "status": "nanite-infection",
+        "statusDuration": 105
+      }
+    }
+  ]
+}

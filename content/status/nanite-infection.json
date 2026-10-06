@@ -1,0 +1,11 @@
+{
+  "name": "Nanite Infection",
+  "description": "Parasitic nanites damage the target and suppress its maximum health.",
+  "color": "3d6fff",
+  "damage": 0.18,
+  "speedMultiplier": 0.72,
+  "healthMultiplier": 0.85,
+  "reloadMultiplier": 0.9,
+  "effect": "none",
+  "show": true
+}

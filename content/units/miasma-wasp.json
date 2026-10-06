@@ -1,0 +1,53 @@
+{
+  "type": "flying",
+  "name": "Miasma Wasp",
+  "description": "Larger flying parasite that sprays infectious clouds around its target.",
+  "health": 1050,
+  "speed": 2.35,
+  "hitSize": 12,
+  "rotateSpeed": 7,
+  "accel": 0.08,
+  "drag": 0.04,
+  "armor": 4,
+  "itemCapacity": 0,
+  "flying": true,
+  "lowAltitude": true,
+  "engineOffset": 6,
+  "engineSize": 2.6,
+  "outlineColor": "1a2e1a",
+  "alwaysCreateOutline": true,
+  "immunities": ["nanite-infection"],
+  "research": "raize-wasp",
+  "weapons": [
+    {
+      "name": "miasma-wasp-weapon",
+      "x": 4,
+      "y": 1,
+      "reload": 30,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": false,
+      "shootCone": 30,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 27,
+        "speed": 8.2,
+        "lifetime": 28,
+        "width": 7,
+        "height": 9,
+        "knockback": 0.3,
+        "splashDamage": 8,
+        "splashDamageRadius": 16,
+        "frontColor": "b6e07a",
+        "backColor": "5a8a40",
+        "shootEffect": "shootSmall",
+        "hitEffect": "flakExplosion",
+        "status": "nanite-infection",
+        "statusDuration": 90
+      }
+    }
+  ]
+}

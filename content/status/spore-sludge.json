@@ -1,0 +1,9 @@
+{
+  "name": "Spore Sludge",
+  "description": "Sticky biological residue that slows movement.",
+  "color": "6fae65",
+  "speedMultiplier": 0.7,
+  "reloadMultiplier": 0.85,
+  "effect": "none",
+  "show": true
+}
